@@ -1,5 +1,7 @@
 http://pythontutor.com/visualize.html#mode=edit
 heigh = [9,8,7,6,5,4]
+
+count = 0 //优化,计算循环次
 for j in range(0,len(heigh)-1):
     for i in range(0,len(heigh)-1):
           if heigh[i] > heigh[i+1]:                       
